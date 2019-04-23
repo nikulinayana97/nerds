@@ -1,0 +1,282 @@
+.container {
+	max-width: 1200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+}
+
+body{
+	margin: 0px;
+}
+
+.header{
+	background-color: #eeeeee;
+}
+
+.header .container{
+	display: flex;
+	align-items: center;
+}
+
+.menu{
+	display: flex;
+}
+
+ul, ol{
+	list-style: none;
+	padding: 0;
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h6{
+	margin: 0px;
+}
+
+.logo{
+	margin-right: 190px;
+	margin-top: 40px;
+}
+
+.menu-item{
+	margin: 0 23px;
+}
+
+.menu-item a{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+}
+
+.menu-cart{
+	margin-left: auto;
+	margin-right: 0px;
+}
+
+#main-nav{
+	flex-grow: 1;
+}
+
+.hero{
+	background-color: #eee;
+}
+
+.hero-title{
+	font-size: 55px;
+	line-height: 1;
+	margin-bottom: 18px;
+}
+
+.hero-text p{
+	font-size: 16px;
+	margin-bottom: 40px;
+	max-width: 370px;
+}
+
+.hero-text p + .btn{
+	display: inline-block;
+	height: 50px;
+	padding: 0 50px;
+	line-height: 50px;
+	background-color: #fb565f;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+
+.hero .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero-text{
+	align-self: center;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.expertize-item{
+  margin: 80px 45px 25px 0px;
+}
+
+.expertize-item-title{
+	margin: 30px 0px;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: black;
+	font: Myriad Pro;
+	font-family: sans-serif;
+}
+
+.expertize-item-desc{
+	margin: 30px 45px 25px 0px;
+	max-width: 300px;
+	font-family: sans-serif;
+	font: Myriad Pro;
+	font-size: 16px;
+
+}
+
+
+.one{
+	background-color: #fb565a;
+}
+
+.two{
+	background-color: #00ca74;
+}
+
+.three{
+	background-color: #efc849;
+}
+.expertize-item-btn{
+	border: none;
+	height: 50px;
+	width: 160px;
+	padding: 0px 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+hr {
+	width: 1200px;
+	margin: 80px 192px 0;
+}
+
+footer{
+	padding: 70px 70px;
+}
+
+.map img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+
+.map{
+	position: relative;
+}
+
+.adress {
+	top: 50%;
+	position: absolute;
+	transform: translateY(-50%);
+	padding: 50px;
+	background-color: #fff;
+	color: #666;
+	width: 320px;
+	box-sizing: border-box;
+
+}
+
+.adress-title{
+	font-size: 18px;
+	margin-bottom: 28px;
+}
+
+address{
+	font-style: normal;
+}
+
+.address-btn{
+	background-color: #fb565a;
+	border-radius: 4px;
+	width: 100%;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.adress p{
+	margin-bottom: 30px;
+} 
+
+hr{
+	margin-bottom: 45px;
+}
+
+.about-text{
+	padding-top: 55px;
+	color: black;
+	font: Myriad Pro;
+	font-family: sans-serif;
+	max-width: 650px;
+}
+
+h3{
+	font-size: 43px;
+	margin-bottom: 40px;
+}
+
+p, li{
+	font-size: 16px;
+}
+
+h4{
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+
+p{
+	margin-bottom: 50px;
+}
+
+li.li-text{
+	line-height: 50px;
+
+}
+
+div.about-img>h5{
+	text-align: center;
+	margin: 40px auto;
+	font: Myriad Pro;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+ul.per-cent{
+	display: flex;
+	text-align: justify;
+	width: 360px;
+}
+
+div.about-img{
+	text-align: justify;
+}
+
+li>h6{
+	font-size: 45px;
+	font: Myriad Pro;
+	font-family: sans-serif;
+}
+
+li>p{
+	font-size: 16px;
+	font: Myriad Pro;
+	font-family: sans-serif;
+}
