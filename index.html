@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Nerds</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -10,6 +11,14 @@
 		<div class="container">
 			<h1 class="logo"><img src="img/logo.png" alt="Nerds" class="logo_img"></h1>
 			<nav id="main-nav">
+				<label for="menu-input" class="menu_btn" role="button">
+					<span class="menu-btn__line"></span>
+					<span class="menu-btn__line"></span>
+					<span class="menu-btn__line"></span>
+				</label>
+
+				<input type="checkbox" hidden id="menu-input">
+
 				<ul class="menu">
 					<li class="menu-item"><a href="#">item 1</a></li>
 					<li class="menu-item"><a href="#">item 2</a></li>
@@ -34,9 +43,7 @@
 			</div>
 		</section>
 		<section class="expertize">
-
 			<h2 class="visually-hidden">Наша экспертиза</h2>
-
 			<div class="container">
 				<div class="expertize-item">
 					<div class="expertize-img-wrapper">
@@ -89,8 +96,8 @@
 				</div>	
 				<aside>
 					<div class="about-img">
-					<img src="img/nerds-illustration.png" alt="nerds">
-					<h5>С 2004 года любим точность во всем:</h5>
+						<img src="img/nerds-illustration.png" alt="nerds">
+						<h5>С 2004 года любим точность во всем:</h5>
 					</div>
 					<h4 class="about-aside"></h4>
 					<ul class="per-cent">
@@ -99,35 +106,62 @@
 						<li class="about-aside-item"><h6>50<sup>%</sup></h6><br><p>Минимальная<br>предоплата</p></li>
 					</ul>
 				</aside>
-			</div>
+			
 		</section>
+		<hr>
+			<div class="icons">
+				<div class="img-icons">
+					<img src="img/logo-1.png" alt="beetroot">
+				</div>
+				<div class="img-icons">
+					<img src="img/logo-2.png" alt="borodinskiy">
+				</div>
+				<div class="img-icons">
+					<img src="img/logo-3.png" alt="pink">
+				</div>
+				<div class="img-icons">
+					<img src="img/logo-4.png" alt="mishka">
+				</div>
+			</div>
+			<hr>
+		</div>
 	</main>
 <section class="map">
 		<img src="img/map.png" alt="map">
-
-		<div class="container map-container">
-			
+		<div class="container map-container">	
 			<div class="adress">
 				<h5 class="adress-title">
 					NЁRDS DESIGN STUDIO
 				</h5>
-
 				<address>191186, Харьков, ул. Конституции, д. 19/8
 				</address>
 				<p>
 				Тел: <a href="tel:+380097931761">+	38099 793 1761
 				</a></p>
-
 				<a href="mailto:nikulina.yana97@gmail.com" class="address-btn btn">
 					Напишите нам
 				</a>
 			</div>
-
 		</div>
-</section>
+
+		<!-- <img src="img/map-marker.png" alt="" class="mark"> -->
+</section>		
 <footer>
-	<h6>Давайте дружить, это выгодно!</h6>
-	<p>Скидка 10% для друзей из социальных сетей.</p>
+	<div class="site">
+		<div class="vk">
+			<img src="img/vk-icon.png" alt="vk" class='vk'>
+		</div>
+		<div class="fb">
+			<img src="img/fb-icon.png" alt="fb" class="fb">
+		</div>
+		<div class="insta">
+			<img src="img/insta-icon.png" alt="insta" class="insta">
+		</div>
+	</div>
+		<div class="footer-text">
+		<h6>Давайте дружить, это выгодно!</h6>
+		<p>Скидка 10% для друзей из социальных сетей.</p>
+	</div>
 </footer>
 </body>
 </html>
